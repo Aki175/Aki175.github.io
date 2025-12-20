@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #7c4242;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+canvas {
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+  cursor: crosshair;
+}
+
+
+
+.controls {
+  width: 300px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  color: #fff;
+  font-family: sans-serif;
+}
+
+
+

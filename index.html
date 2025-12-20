@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Terrain generation</title>
+
+    <link rel="stylesheet" type="text/css" href="src/style.css">
+    <script src="libraries/p5.min.js"></script>
+  </head>
+
+  <body>
+    
+    <div class="controls">
+        <h3>Environment Settings:</h3>
+
+        <label for="temperature">Temperature:</label><br>
+        <input type="range" id="temperature" min="-20" max="0" value="0" step="1" oninput="updateTemperature(this.value)">
+        <span id="tempValue">0°C</span><br><br>
+
+        <label for="rain">Rainfall:</label><br>
+        <input type="range" id="rain" min="0" max="100" value="50" step="1" oninput="updateRain(this.value)">
+        <span id="rainValue">50%</span><br><br>
+
+        <button onclick="randomizeEnvironment()">Randomize</button>
+        <button onclick="generateMap()">Generate a new map</button>
+        <button onclick="routeFinder()">Give route between points</button>
+
+    </div>
+
+    <script src="src/main.js"></script>
+  </body>
+</html>
