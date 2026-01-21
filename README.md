@@ -1,7 +1,4 @@
 # Aki175.github.io
-
-BIT CS Test:
-
 This project is a procedural terrain generator built with p5.js that uses
 Perlin noise to simulate natural landscapes. It also features an A*
 pathfinding algorithm to navigate between  2 points selected by the users.
